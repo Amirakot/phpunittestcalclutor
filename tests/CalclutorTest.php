@@ -13,6 +13,6 @@ class CalclutorTest extends TestCase
     }
     public function test_sub(){
         $calc=new Calcutor();
-       return $this->assertSame($calc->multiply(2,5),10);
+       return $this->assertSame($calc->sub(5,2),3);
     }
 }

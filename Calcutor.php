@@ -6,4 +6,7 @@ return $x+$y;
 public function multiply($x,$y){
 return $x*$y;
 }
+public function sub($x,$y){
+return $x-$y;
+}
 }
